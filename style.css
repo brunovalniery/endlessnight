@@ -1,0 +1,86 @@
+.{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("https://i.ibb.co/26RR0tx/background-image.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 170px;
+    text-align: center;
+    height: 100vh;
+}
+
+#sub{ /*h3*/
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+}
+
+#sub span{
+    color: #FFC700;
+}
+
+#title{ /*h1*/
+    font-family: 'Emilys Candy';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    text-align: center;
+    color: #FFC700;
+}
+
+#explanation{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #ffffffb3;
+    opacity: 0.7;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 72px;
+
+    
+}
+
+
+a{
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    opacity: .6;
+}
+
+a:hover,
+.btn-primary{
+    text-decoration: none;
+    color: black;
+    background-color: #FFC700;
+    opacity: 1;
+}
+
+/*
+.button{
+    font-family: Inter;
+    text-align: center;
+    background-color: #FFC700;
+}
+
+#knowplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}*/
